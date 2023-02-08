@@ -379,8 +379,10 @@
 
 
                                     <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                        <input type="text" placeholder="Resume Upload Here">
-                                        <input type="file" name="file">
+                                        <input type="text" placeholder="Resume Upload Here" style="display:none;">
+                                        <input type="file" name="file" id="file" style="display:none;">
+                                        <label for="file" style="height: 70px;/* width: 40px; */background-color: #28aa4a;
+                                        color: white;display: flex;justify-content: center;align-items: center; cursor:pointer">Upload Resume</label>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <textarea type="text" name="remark" placeholder="Remark" required=""></textarea>
