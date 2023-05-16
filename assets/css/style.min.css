@@ -1394,7 +1394,7 @@ div#mCSB_1_container {
     font-size: 90px;
     line-height: 95px;
     font-weight: 900;
-    margin-bottom: 37px;
+    margin-bottom: -35px;
     opacity: 0;
     -webkit-transform: translateY(100px);
     -moz-transform: translateY(100px);
