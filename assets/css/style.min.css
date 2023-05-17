@@ -272,7 +272,7 @@ img {
 .sec-title p {
     position: relative;
     display: block;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 26px;
     font-weight: 500;
     margin-bottom: 7px
@@ -1429,7 +1429,8 @@ div#mCSB_1_container {
     font-size: 20px;
     line-height: 32px;
     font-weight: 500;
-    margin-bottom: 41px;
+    /* margin-bottom: 41px; */
+    margin-top: 55px;
     font-style: italic;
     opacity: 0;
     -webkit-transform: translateY(100px);
@@ -1474,6 +1475,7 @@ div#mCSB_1_container {
 }
 
 .banner-carousel .active .content-box .btn-box {
+    margin-top: 55px;
     opacity: 1;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2849,7 +2851,7 @@ div#mCSB_1_container {
     font-size: 14px
 }
 
-.news-block-one .inner-box .lower-content h3 {
+.news-block-one .inner-box .lower-content h2 {
     display: block;
     font-size: 24px;
     line-height: 36px;
@@ -5671,3 +5673,4 @@ textarea {
 .black123 {
 color: #222;
 }
+
