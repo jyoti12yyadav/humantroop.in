@@ -5675,7 +5675,7 @@ color: #222;
 }
 
 
-.about-style-two .lower-box .content-box h2 {
+/* .about-style-two .lower-box .content-box h2 {
 
     position: relative;
     display: block;
@@ -5684,7 +5684,7 @@ color: #222;
     font-weight: 700;
     margin: 0;
 
-}
+} */
 @media only screen and (max-width: 767px) {
 
     .about-style-two .lower-box .content-box h2 {
