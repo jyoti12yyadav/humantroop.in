@@ -5674,3 +5674,22 @@ textarea {
 color: #222;
 }
 
+
+.about-style-two .lower-box .content-box h2 {
+
+    position: relative;
+    display: block;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    margin: 0;
+
+}
+@media only screen and (max-width: 767px) {
+
+    .about-style-two .lower-box .content-box h2 {
+
+        font-size: 36px ;
+    }
+}
+
