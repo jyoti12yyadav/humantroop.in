@@ -5639,7 +5639,26 @@ textarea {
     top: .7em;
     right: -2.3em
 }
-
+.mobile-header{
+    position: relative;
+    width: 100%;
+    background: #272727;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.mobile-header .info-list li {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a7a7a7;
+    font-weight: 500;
+    padding-left: 27px;
+    margin-right: 25px
+}
+.mobile-header .social-links{
+    margin-left: -50px;
+}
 @media (max-width:768px) {
     .logo1 {
         margin-top: 0
@@ -5673,7 +5692,11 @@ textarea {
 .black123 {
 color: #222;
 }
-
+@media only screen and (max-width: 991px) {
+     .header-top{
+        display: none;
+    } 
+}
 
 /* .about-style-two .lower-box .content-box h2 {
 
