@@ -4109,7 +4109,7 @@ div#mCSB_1_container {
 
 .page-title {
     position: relative;
-    padding: 245px 0 150px 0;
+    padding: 130px 0 150px 0;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4135,7 +4135,7 @@ div#mCSB_1_container {
 
 .page-title .content-box .title h1 {
     position: relative;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 80px;
     color: #fff;
     font-weight: 900
@@ -5423,7 +5423,7 @@ div#mCSB_1_container {
     bottom: 18%;
     right: 0;
     border: 3px solid #f1f1f1;
-    z-index: 9;
+    z-index: 99999;
     border-radius: 5px
 }
 
@@ -5683,7 +5683,7 @@ textarea {
 
 @media (min-width:992px) and (max-width:1311px) {
     .main-header.style-one .outer-box {
-        padding: 0 0
+        padding: 0 0px
     }
 }
 
@@ -5692,6 +5692,7 @@ textarea {
         padding: 0
     }
 }
+
 /* new edited */
 
 .black123 {
