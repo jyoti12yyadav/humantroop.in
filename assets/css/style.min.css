@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -1391,7 +1392,7 @@ div#mCSB_1_container {
     position: relative;
     display: block;
     color: #fff;
-    font-size: 90px;
+    font-size: 51px;
     line-height: 95px;
     font-weight: 900;
     margin-bottom: -35px;
@@ -5721,4 +5722,11 @@ color: #222;
         font-size: 36px ;
     }
 }
+.slider-img{
+    margin-top: 50px;
+   background-color: #fff;
+   width: fit-content;
+   box-shadow: 0px -25px 20px -20px rgba(255, 255, 255, 0.45), 0px 25px 20px -20px rgba(255, 255, 255, 0.45);
+}
+
 
