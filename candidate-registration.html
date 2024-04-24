@@ -53,7 +53,14 @@
 
 </head>
 
+<style>
+.form-group-box {
+    border: 1px solid #d7d7d7;
+    padding: 15px 18px;
+background-color: #000000;
+}
 
+</style>
 <!-- page wrapper -->
 
 <body>
@@ -394,18 +401,21 @@
 
 
                                     <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                        <input type="text" placeholder="Resume Upload Here" style="display:none;" required="">
-                                        <input type="file" name="file" id="file" style="display:none;" required="">
-                                        <label for="file" style="height: 70px;/* width: 40px; */background-color: #28aa4a;
-                                        color: white;display: flex;justify-content: center;align-items: center; cursor:pointer">Upload Resume</label>
+                                        <div class="form-group-box">
+                                            <input type="text" placeholder="Resume Upload Here" style="display:none;" value="Button" required="">
+                                            <input type="file" name="file" id="file" value="Button"  required="">
+                                        </div>
+                                       
+                                        <!-- <label for="file" style="height: 70px;/* width: 40px; */background-color: #28aa4a;
+                                        color: white;display: flex;justify-content: center;align-items: center; cursor:pointer">Upload Resume</label> -->
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <textarea type="text" name="remark" placeholder="Remark" required=""></textarea>
                                     </div>
-                                    <div class="form-group" style="padding: 10px 15px;">
+                                    <!-- <div class="form-group" style="padding: 10px 15px;">
                                         <div class="g-recaptcha"
                                             data-sitekey="6LcqVg4jAAAAAFlIdhGjJ7-F0xnZxN-LqhmfiNij"></div>
-                                    </div>
+                                    </div> -->
                                     <!-- <div class="col-lg-6 col-md-12 col-sm-12 form-group">
                                         <input type="text" placeholder="Cover Letter">
                                         <input type="file" name="cover" required="" placeholder="Choose File">
