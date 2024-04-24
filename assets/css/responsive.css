@@ -140,7 +140,7 @@
   }
 
   .main-header.style-one .outer-box{
-    padding: 0px 30px;
+    padding: 0px 0px;
   }
 
   .banner-carousel .owl-nav{
@@ -330,12 +330,12 @@
 }
 @media only screen and (min-width: 1311px){
   .main-header.style-one .outer-box{
-    padding: 0px 30px;
+    padding: 0px 2px;
   }
 }
 @media only screen and (max-width: 1274px){
   .main-header.style-one .outer-box{
-    width: 101%;
+    width: 100%;
   }
 .navigation{
   margin-left: -15px;
@@ -789,7 +789,7 @@
 @media only screen and (max-width: 499px){
 
   .main-header.style-one .outer-box{
-    padding: 0px 15px;
+    padding: 0px 0px;
   }
 
   .header-top .social-links{
